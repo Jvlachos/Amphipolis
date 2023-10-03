@@ -1,0 +1,799 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Model.Player.Player</OriginalElement>
+  <nodes>
+    <node x="2967.794617176761" y="4847.0">Model.Cards.Character</node>
+    <node x="3446.6540529363106" y="2924.5">View.Main_menu.panel.start_menu</node>
+    <node x="1657.6060498641136" y="841.0">Model.Tiles.FindingTiles</node>
+    <node x="499.7835257297395" y="2265.5">Model.Cards.Archaelogist</node>
+    <node x="2300.482117176761" y="2869.0">Controller.Game_Controller</node>
+    <node x="85.94736842105249" y="2265.5">Model.Cards.Digger</node>
+    <node x="2317.482117176761" y="1735.0">Model.Round.Round</node>
+    <node x="3573.8625405122693" y="1448.0">View.Main_menu</node>
+    <node x="976.6199066213919" y="3035.5">View.GUI.Player_Actions</node>
+    <node x="2501.482117176761" y="2276.5">Model.Cards.Assistant</node>
+    <node x="1760.655406561731" y="1437.0">Model.Tiles.MosaicTile</node>
+    <node x="3639.73467661963" y="1824.0">View.Main_menu.panel.menu_listener</node>
+    <node x="2802.1780650846736" y="2254.5">Model.Cards.Professor</node>
+    <node x="2003.0942449683248" y="1426.0">Model.Tiles.AmphoraTile</node>
+    <node x="1412.322073228398" y="1137.0">Model.Tiles.StatueTile</node>
+    <node x="385.8421052631579" y="3013.5">View.GUI.take_tiles</node>
+    <node x="700.7251697792867" y="3035.5">View.GUI.Menu_Actions</node>
+    <node x="3071.1780650846736" y="2243.5">Controller.Controller</node>
+    <node x="1267.5465260545902" y="177.5">Model.Tiles.Tile</node>
+    <node x="1228.322073228398" y="1471.0">Model.Tiles.LandSlideTile</node>
+    <node x="2170.6459884201813" y="0.0">Model.Player.Player</node>
+    <node x="3581.4040529363106" y="2167.0">View.Main_menu.panel</node>
+    <node x="1342.3798593879233" y="1746.0">Model.Board.Board</node>
+    <node x="1478.655406561731" y="1393.0">Model.Tiles.SkeletonTile</node>
+    <node x="928.3047712841143" y="3506.0">View.GUI</node>
+    <node x="1457.6077875141123" y="886.0">Model.Tiles.CaryatidTile</node>
+    <node x="2824.980778770168" y="3035.5">View.GUI.use_character</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Model.Cards.Professor" target="Model.Round.Round">
+      <point x="-31.125" y="-138.5" />
+      <point x="2895.5530650846736" y="2067.0" />
+      <point x="2435.2043393989834" y="2067.0" />
+      <point x="36.22222222222217" y="116.0" />
+    </edge>
+    <edge source="Controller.Controller" target="Model.Board.Board">
+      <point x="-133.4375" y="-149.5" />
+      <point x="3090.2405650846736" y="2057.0" />
+      <point x="1526.8298593879233" y="2057.0" />
+      <point x="75.94999999999993" y="105.0" />
+    </edge>
+    <edge source="Model.Tiles.FindingTiles" target="Model.Player.Player">
+      <point x="-16.0" y="-83.0" />
+      <point x="1737.6060498641136" y="781.0" />
+      <point x="2234.5330851943754" y="781.0" />
+      <point x="-52.61290322580635" y="215.5" />
+    </edge>
+    <edge source="Model.Tiles.LandSlideTile" target="Model.Tiles.Tile">
+      <point x="38.0" y="-38.0" />
+      <point x="1342.322073228398" y="1323.0" />
+      <point x="1319.2965260545902" y="1323.0" />
+      <point x="1319.2965260545902" y="691.0" />
+      <point x="1338.1179546260187" y="691.0" />
+      <point x="-5.4285714285715585" y="38.0" />
+    </edge>
+    <edge source="Model.Cards.Assistant" target="Model.Board.Board">
+      <point x="-93.375" y="-116.5" />
+      <point x="2532.607117176761" y="2097.0" />
+      <point x="1483.4298593879234" y="2097.0" />
+      <point x="32.549999999999955" y="105.0" />
+    </edge>
+    <edge source="Model.Tiles.CaryatidTile" target="Model.Player.Player">
+      <point x="0.0" y="-38.0" />
+      <point x="1534.6077875141123" y="771.0" />
+      <point x="2227.016956162117" y="771.0" />
+      <point x="-60.1290322580644" y="215.5" />
+    </edge>
+    <edge source="Model.Cards.Character" target="View.GUI">
+      <point x="-58.58823529411757" y="-138.5" />
+      <point x="3033.7063818826437" y="4787.0" />
+      <point x="988.1381046174475" y="4787.0" />
+      <point x="-119.66666666666674" y="600.5" />
+    </edge>
+    <edge source="Model.Tiles.StatueTile" target="Model.Player.Player">
+      <point x="-91.71428571428572" y="-83.0" />
+      <point x="1427.6077875141123" y="1117.0" />
+      <point x="1447.1077875141123" y="1117.0" />
+      <point x="1447.1077875141123" y="761.0" />
+      <point x="2219.5008271298593" y="761.0" />
+      <point x="-67.64516129032245" y="215.5" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Cards.Character">
+      <point x="159.58333333333348" y="193.5" />
+      <point x="2651.5654505100947" y="4757.0" />
+      <point x="3077.647558353232" y="4757.0" />
+      <point x="-14.647058823529278" y="-138.5" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="View.GUI">
+      <point x="-31.916666666666515" y="193.5" />
+      <point x="2460.0654505100947" y="3426.0" />
+      <point x="1225.8968765472723" y="3426.0" />
+      <point x="118.09210526315792" y="-600.5" />
+    </edge>
+    <edge source="View.GUI.use_character" target="View.GUI">
+      <point x="29.5" y="27.0" />
+      <point x="2972.480778770168" y="3486.0" />
+      <point x="1282.5810870735882" y="3486.0" />
+      <point x="174.77631578947376" y="-600.5" />
+    </edge>
+    <edge source="Model.Cards.Digger" target="Model.Round.Round">
+      <point x="93.375" y="-127.5" />
+      <point x="303.8223684210525" y="2117.0" />
+      <point x="2326.537672732317" y="2117.0" />
+      <point x="-72.44444444444434" y="116.0" />
+    </edge>
+    <edge source="View.GUI.use_character" target="Model.Cards.Character">
+      <point x="88.5" y="27.0" />
+      <point x="3031.480778770168" y="3486.0" />
+      <point x="3045.980778770168" y="3486.0" />
+      <point x="3045.980778770168" y="4747.0" />
+      <point x="3092.294617176761" y="4747.0" />
+      <point x="0.0" y="-138.5" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Board.Board">
+      <point x="-139.94230769230762" y="-193.5" />
+      <point x="2352.0398094844536" y="2789.0" />
+      <point x="1466.280406561731" y="2789.0" />
+      <point x="1466.280406561731" y="2097.0" />
+      <point x="1461.7298593879234" y="2097.0" />
+      <point x="10.849999999999966" y="105.0" />
+    </edge>
+    <edge source="View.GUI" target="View.GUI.Player_Actions">
+      <point x="4.723684210526244" y="-600.5" />
+      <point x="1112.5284554946406" y="3296.0" />
+      <point x="1006.1199066213919" y="3296.0" />
+      <point x="-88.5" y="27.0" />
+    </edge>
+    <edge source="Model.Cards.Professor" target="View.GUI">
+      <point x="-31.125" y="138.5" />
+      <point x="2895.5530650846736" y="2789.0" />
+      <point x="2693.982117176761" y="2789.0" />
+      <point x="2693.982117176761" y="3456.0" />
+      <point x="1254.2389818104302" y="3456.0" />
+      <point x="146.43421052631584" y="-600.5" />
+    </edge>
+    <edge source="View.Main_menu.panel" target="View.Main_menu">
+      <point x="-94.40000000000009" y="-226.0" />
+      <point x="3605.0040529363105" y="2147.0" />
+      <point x="3618.0292071789354" y="2147.0" />
+      <point x="3618.0292071789354" y="1715.0" />
+      <point x="3598.6958738456024" y="1715.0" />
+      <point x="-49.66666666666697" y="61.0" />
+    </edge>
+    <edge source="Model.Round.Round" target="Model.Player.Player">
+      <point x="54.333333333333485" y="-116.0" />
+      <point x="2453.3154505100947" y="1705.0" />
+      <point x="2392.9181601601085" y="1705.0" />
+      <point x="2392.9181601601085" y="591.0" />
+      <point x="2309.694375516956" y="591.0" />
+      <point x="22.54838709677415" y="215.5" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Cards.Archaelogist">
+      <point x="-169.4038461538462" y="-193.5" />
+      <point x="2322.578271022915" y="2809.0" />
+      <point x="717.6585257297395" y="2809.0" />
+      <point x="93.375" y="127.5" />
+    </edge>
+    <edge source="Model.Cards.Professor" target="Model.Tiles.Tile">
+      <point x="31.125" y="-138.5" />
+      <point x="2957.8030650846736" y="551.0" />
+      <point x="1414.1179546260187" y="551.0" />
+      <point x="70.57142857142867" y="38.0" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Cards.Digger">
+      <point x="-184.13461538461524" y="-193.5" />
+      <point x="2307.847501792146" y="2819.0" />
+      <point x="303.8223684210525" y="2819.0" />
+      <point x="93.375" y="127.5" />
+    </edge>
+    <edge source="View.Main_menu.panel" target="View.Main_menu.panel.start_menu">
+      <point x="59.0" y="226.0" />
+      <point x="3758.4040529363106" y="2849.0" />
+      <point x="3741.5290529363106" y="2849.0" />
+      <point x="126.375" y="-138.0" />
+    </edge>
+    <edge source="Model.Cards.Archaelogist" target="Model.Player.Player">
+      <point x="-31.125" y="-127.5" />
+      <point x="593.1585257297395" y="1987.0" />
+      <point x="384.99492976490137" y="1987.0" />
+      <point x="384.99492976490137" y="741.0" />
+      <point x="2204.468569065343" y="741.0" />
+      <point x="-82.67741935483855" y="215.5" />
+    </edge>
+    <edge source="Model.Tiles.SkeletonTile" target="Model.Tiles.StatueTile">
+      <point x="-87.33333333333331" y="-116.0" />
+      <point x="1522.3220732283978" y="1353.0" />
+      <point x="1590.6554065617313" y="1353.0" />
+      <point x="71.33333333333331" y="83.0" />
+    </edge>
+    <edge source="View.Main_menu.panel.menu_listener" target="View.Main_menu.panel">
+      <point x="0.0" y="27.0" />
+      <point x="3757.73467661963" y="2147.0" />
+      <point x="3746.6040529363104" y="2147.0" />
+      <point x="47.19999999999982" y="-226.0" />
+    </edge>
+    <edge source="View.GUI.take_tiles" target="Model.Tiles.Tile">
+      <point x="-59.0" y="-49.0" />
+      <point x="444.8421052631579" y="2829.0" />
+      <point x="463.52546121361047" y="2829.0" />
+      <point x="463.52546121361047" y="2017.0" />
+      <point x="288.78323621651407" y="2017.0" />
+      <point x="288.78323621651407" y="661.0" />
+      <point x="1305.5465260545902" y="661.0" />
+      <point x="-38.0" y="38.0" />
+    </edge>
+    <edge source="Model.Cards.Professor" target="Model.Cards.Character">
+      <point x="31.125" y="138.5" />
+      <point x="2957.8030650846736" y="2749.0" />
+      <point x="3216.980778770168" y="2749.0" />
+      <point x="3216.980778770168" y="4777.0" />
+      <point x="3136.2357936473495" y="4777.0" />
+      <point x="43.94117647058829" y="-138.5" />
+    </edge>
+    <edge source="Model.Player.Player" target="Model.Tiles.FindingTiles">
+      <point x="-37.58064516129025" y="215.5" />
+      <point x="2249.5653432588915" y="801.0" />
+      <point x="1801.6060498641136" y="801.0" />
+      <point x="48.0" y="-83.0" />
+    </edge>
+    <edge source="View.GUI" target="View.GUI.take_tiles">
+      <point x="-99.19736842105272" y="-600.5" />
+      <point x="1008.6074028630616" y="3406.0" />
+      <point x="425.1754385964914" y="3406.0" />
+      <point x="-78.66666666666663" y="49.0" />
+    </edge>
+    <edge source="View.GUI.use_character" target="Model.Player.Player">
+      <point x="0.0" y="-27.0" />
+      <point x="2942.980778770168" y="2849.0" />
+      <point x="3386.6780650846736" y="2849.0" />
+      <point x="3386.6780650846736" y="491.0" />
+      <point x="2369.8234077750203" y="491.0" />
+      <point x="82.677419354839" y="215.5" />
+    </edge>
+    <edge source="Model.Cards.Assistant" target="View.GUI">
+      <point x="-93.375" y="116.5" />
+      <point x="2532.607117176761" y="2849.0" />
+      <point x="2289.982117176761" y="2849.0" />
+      <point x="2289.982117176761" y="3396.0" />
+      <point x="1197.5547712841144" y="3396.0" />
+      <point x="89.75" y="-600.5" />
+    </edge>
+    <edge source="View.GUI" target="Model.Tiles.MosaicTile">
+      <point x="-14.17105263157896" y="-600.5" />
+      <point x="1093.6337186525352" y="3316.0" />
+      <point x="956.6725382003393" y="3316.0" />
+      <point x="956.6725382003393" y="2047.0" />
+      <point x="1124.9293629167228" y="2047.0" />
+      <point x="1124.9293629167228" y="1685.0" />
+      <point x="1785.280406561731" y="1685.0" />
+      <point x="-73.875" y="72.0" />
+    </edge>
+    <edge source="Model.Board.Board" target="Model.Tiles.SkeletonTile">
+      <point x="31.0" y="-105.0" />
+      <point x="1481.8798593879233" y="1675.0" />
+      <point x="1576.905406561731" y="1675.0" />
+      <point x="-32.75" y="116.0" />
+    </edge>
+    <edge source="Model.Cards.Digger" target="View.GUI">
+      <point x="31.125" y="127.5" />
+      <point x="241.5723684210525" y="3446.0" />
+      <point x="970.8179291788509" y="3446.0" />
+      <point x="-136.98684210526335" y="-600.5" />
+    </edge>
+    <edge source="Model.Cards.Assistant" target="Model.Round.Round">
+      <point x="-31.125" y="-116.5" />
+      <point x="2594.857117176761" y="2087.0" />
+      <point x="2417.0932282878725" y="2087.0" />
+      <point x="18.111111111111313" y="116.0" />
+    </edge>
+    <edge source="View.GUI.Player_Actions" target="View.GUI">
+      <point x="29.5" y="27.0" />
+      <point x="1124.119906621392" y="3276.0" />
+      <point x="1131.423192336746" y="3276.0" />
+      <point x="23.618421052631675" y="-600.5" />
+    </edge>
+    <edge source="Model.Board.Board" target="Model.Tiles.Tile">
+      <point x="-31.0" y="-105.0" />
+      <point x="1419.8798593879233" y="1655.0" />
+      <point x="1401.822073228398" y="1655.0" />
+      <point x="1401.822073228398" y="681.0" />
+      <point x="1359.8322403403045" y="681.0" />
+      <point x="16.28571428571422" y="38.0" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Tiles.Tile">
+      <point x="22.09615384615381" y="-193.5" />
+      <point x="2514.078271022915" y="2679.0" />
+      <point x="2277.465988144503" y="2679.0" />
+      <point x="2277.465988144503" y="651.0" />
+      <point x="1392.403668911733" y="651.0" />
+      <point x="48.85714285714289" y="38.0" />
+    </edge>
+    <edge source="Model.Cards.Assistant" target="Model.Player.Player">
+      <point x="93.375" y="-116.5" />
+      <point x="2719.357117176761" y="2147.0" />
+      <point x="2673.8959884201813" y="2147.0" />
+      <point x="2673.8959884201813" y="561.0" />
+      <point x="2324.726633581472" y="561.0" />
+      <point x="37.58064516129025" y="215.5" />
+    </edge>
+    <edge source="View.GUI" target="Controller.Game_Controller">
+      <point x="99.19736842105272" y="-600.5" />
+      <point x="1207.0021397051669" y="3406.0" />
+      <point x="2332.3987838434277" y="3406.0" />
+      <point x="-159.58333333333348" y="193.5" />
+    </edge>
+    <edge source="Model.Tiles.AmphoraTile" target="Model.Tiles.FindingTiles">
+      <point x="0.0" y="-83.0" />
+      <point x="2121.594244968325" y="1373.0" />
+      <point x="2108.9339114800114" y="1373.0" />
+      <point x="2108.9339114800114" y="1047.0" />
+      <point x="1820.8060498641134" y="1047.0" />
+      <point x="67.19999999999993" y="83.0" />
+    </edge>
+    <edge source="View.Main_menu.panel.menu_listener" target="View.Main_menu">
+      <point x="0.0" y="-27.0" />
+      <point x="3757.73467661963" y="1715.0" />
+      <point x="3698.0292071789363" y="1715.0" />
+      <point x="49.66666666666697" y="61.0" />
+    </edge>
+    <edge source="Model.Board.Board" target="Model.Tiles.AmphoraTile">
+      <point x="93.0" y="-105.0" />
+      <point x="1543.8798593879233" y="1705.0" />
+      <point x="2032.7192449683248" y="1705.0" />
+      <point x="-88.875" y="83.0" />
+    </edge>
+    <edge source="Model.Cards.Archaelogist" target="Model.Tiles.Tile">
+      <point x="-93.375" y="-127.5" />
+      <point x="530.9085257297395" y="1997.0" />
+      <point x="310.78323621651407" y="1997.0" />
+      <point x="310.78323621651407" y="671.0" />
+      <point x="1316.403668911733" y="671.0" />
+      <point x="-27.14285714285711" y="38.0" />
+    </edge>
+    <edge source="Model.Tiles.SkeletonTile" target="Model.Tiles.FindingTiles">
+      <point x="87.33333333333331" y="-116.0" />
+      <point x="1696.9887398950646" y="1373.0" />
+      <point x="1688.1393831974472" y="1373.0" />
+      <point x="1688.1393831974472" y="1117.0" />
+      <point x="1744.0060498641137" y="1117.0" />
+      <point x="-9.600000000000023" y="83.0" />
+    </edge>
+    <edge source="View.GUI" target="Model.Player.Player">
+      <point x="-155.88157894736855" y="-600.5" />
+      <point x="951.9231923367457" y="3466.0" />
+      <point x="53.44736842105249" y="3466.0" />
+      <point x="53.44736842105249" y="1353.0" />
+      <point x="228.69836798417555" y="1353.0" />
+      <point x="228.69836798417555" y="701.0" />
+      <point x="2174.404052936311" y="701.0" />
+      <point x="-112.74193548387075" y="215.5" />
+    </edge>
+    <edge source="Model.Cards.Professor" target="Model.Board.Board">
+      <point x="-93.375" y="-138.5" />
+      <point x="2833.3030650846736" y="2077.0" />
+      <point x="1505.1298593879233" y="2077.0" />
+      <point x="54.24999999999994" y="105.0" />
+    </edge>
+    <edge source="Model.Tiles.FindingTiles" target="Model.Tiles.Tile">
+      <point x="-48.0" y="-83.0" />
+      <point x="1705.6060498641136" y="661.0" />
+      <point x="1381.5465260545902" y="661.0" />
+      <point x="38.0" y="38.0" />
+    </edge>
+    <edge source="Model.Tiles.MosaicTile" target="Model.Player.Player">
+      <point x="65.66666666666652" y="-72.0" />
+      <point x="1924.8220732283976" y="1373.0" />
+      <point x="1879.6298593879233" y="1373.0" />
+      <point x="1879.6298593879233" y="821.0" />
+      <point x="2264.5976013234076" y="821.0" />
+      <point x="-22.54838709677415" y="215.5" />
+    </edge>
+    <edge source="Model.Board.Board" target="Model.Tiles.MosaicTile">
+      <point x="62.0" y="-105.0" />
+      <point x="1512.8798593879233" y="1695.0" />
+      <point x="1834.530406561731" y="1695.0" />
+      <point x="-24.625" y="72.0" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Cards.Professor">
+      <point x="110.48076923076906" y="-193.5" />
+      <point x="2602.4628864075303" y="2779.0" />
+      <point x="2833.3030650846736" y="2779.0" />
+      <point x="-93.375" y="138.5" />
+    </edge>
+    <edge source="View.GUI" target="Model.Tiles.SkeletonTile">
+      <point x="-23.618421052631447" y="-600.5" />
+      <point x="1084.1863502314827" y="3326.0" />
+      <point x="947.2251697792868" y="3326.0" />
+      <point x="947.2251697792868" y="2037.0" />
+      <point x="1088.8146397051669" y="2037.0" />
+      <point x="1088.8146397051669" y="1665.0" />
+      <point x="1511.405406561731" y="1665.0" />
+      <point x="-98.25" y="116.0" />
+    </edge>
+    <edge source="View.GUI" target="Model.Tiles.LandSlideTile">
+      <point x="-108.6447368421052" y="-600.5" />
+      <point x="999.1600344420091" y="3416.0" />
+      <point x="364.3421052631579" y="3416.0" />
+      <point x="364.3421052631579" y="2047.0" />
+      <point x="763.3771397051669" y="2047.0" />
+      <point x="763.3771397051669" y="1655.0" />
+      <point x="1247.322073228398" y="1655.0" />
+      <point x="-57.0" y="38.0" />
+    </edge>
+    <edge source="Model.Cards.Professor" target="Model.Player.Player">
+      <point x="93.375" y="-138.5" />
+      <point x="3020.0530650846736" y="2147.0" />
+      <point x="2978.084826826775" y="2147.0" />
+      <point x="2978.084826826775" y="541.0" />
+      <point x="2332.2427626137296" y="541.0" />
+      <point x="45.0967741935483" y="215.5" />
+    </edge>
+    <edge source="View.GUI" target="Model.Tiles.AmphoraTile">
+      <point x="61.40789473684208" y="-600.5" />
+      <point x="1169.2126660209565" y="3366.0" />
+      <point x="1242.0146434634971" y="3366.0" />
+      <point x="1242.0146434634971" y="2107.0" />
+      <point x="1586.5048593879233" y="2107.0" />
+      <point x="1586.5048593879233" y="1715.0" />
+      <point x="2091.969244968325" y="1715.0" />
+      <point x="-29.625" y="83.0" />
+    </edge>
+    <edge source="Model.Cards.Digger" target="Model.Player.Player">
+      <point x="-31.125" y="-127.5" />
+      <point x="179.3223684210525" y="2047.0" />
+      <point x="299.78323621651407" y="2047.0" />
+      <point x="299.78323621651407" y="1373.0" />
+      <point x="321.78323621651407" y="1373.0" />
+      <point x="321.78323621651407" y="721.0" />
+      <point x="2189.436311000827" y="721.0" />
+      <point x="-97.70967741935465" y="215.5" />
+    </edge>
+    <edge source="View.GUI.Player_Actions" target="Model.Player.Player">
+      <point x="0.0" y="-27.0" />
+      <point x="1094.619906621392" y="2017.0" />
+      <point x="622.0753627020827" y="2017.0" />
+      <point x="622.0753627020827" y="751.0" />
+      <point x="2211.984698097601" y="751.0" />
+      <point x="-75.1612903225805" y="215.5" />
+    </edge>
+    <edge source="Model.Cards.Archaelogist" target="Model.Cards.Character">
+      <point x="-93.375" y="127.5" />
+      <point x="530.9085257297395" y="2839.0" />
+      <point x="33.0" y="2839.0" />
+      <point x="33.0" y="4807.0" />
+      <point x="3004.4122642355846" y="4807.0" />
+      <point x="-87.88235294117658" y="-138.5" />
+    </edge>
+    <edge source="View.GUI.take_tiles" target="Model.Player.Player">
+      <point x="59.0" y="-49.0" />
+      <point x="562.8421052631579" y="2829.0" />
+      <point x="489.2835257297395" y="2829.0" />
+      <point x="489.2835257297395" y="2007.0" />
+      <point x="329.2993652487721" y="2007.0" />
+      <point x="329.2993652487721" y="731.0" />
+      <point x="2196.9524400330847" y="731.0" />
+      <point x="-90.1935483870966" y="215.5" />
+    </edge>
+    <edge source="View.Main_menu.panel.start_menu" target="View.Main_menu.panel">
+      <point x="42.125" y="-138.0" />
+      <point x="3657.2790529363106" y="2849.0" />
+      <point x="3640.4040529363106" y="2849.0" />
+      <point x="-59.0" y="226.0" />
+    </edge>
+    <edge source="Model.Cards.Digger" target="Model.Cards.Character">
+      <point x="-31.125" y="127.5" />
+      <point x="179.3223684210525" y="2829.0" />
+      <point x="22.0" y="2829.0" />
+      <point x="22.0" y="4817.0" />
+      <point x="2989.7652054120554" y="4817.0" />
+      <point x="-102.52941176470586" y="-138.5" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Cards.Assistant">
+      <point x="95.75" y="-193.5" />
+      <point x="2587.732117176761" y="2849.0" />
+      <point x="2594.857117176761" y="2849.0" />
+      <point x="-31.125" y="116.5" />
+    </edge>
+    <edge source="Model.Tiles.CaryatidTile" target="Model.Tiles.StatueTile">
+      <point x="-12.833333333333314" y="38.0" />
+      <point x="1521.774454180779" y="1117.0" />
+      <point x="1519.322073228398" y="1117.0" />
+      <point x="0.0" y="-83.0" />
+    </edge>
+    <edge source="Model.Cards.Digger" target="Model.Board.Board">
+      <point x="31.125" y="-127.5" />
+      <point x="241.5723684210525" y="2057.0" />
+      <point x="1353.2298593879234" y="2057.0" />
+      <point x="-97.64999999999999" y="105.0" />
+    </edge>
+    <edge source="View.GUI.Menu_Actions" target="View.GUI">
+      <point x="29.5" y="27.0" />
+      <point x="848.2251697792867" y="3346.0" />
+      <point x="1065.2916133893773" y="3346.0" />
+      <point x="-42.51315789473688" y="-600.5" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Controller.Controller">
+      <point x="139.94230769230762" y="-193.5" />
+      <point x="2631.924424869069" y="2809.0" />
+      <point x="3136.535207941816" y="2809.0" />
+      <point x="-87.14285714285734" y="149.5" />
+    </edge>
+    <edge source="Model.Board.Board" target="Model.Tiles.StatueTile">
+      <point x="0.0" y="-105.0" />
+      <point x="1450.8798593879233" y="1655.0" />
+      <point x="1430.8798593879233" y="1655.0" />
+      <point x="1430.8798593879233" y="1343.0" />
+      <point x="1519.322073228398" y="1343.0" />
+      <point x="0.0" y="83.0" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Tiles.FindingTiles">
+      <point x="7.365384615384755" y="-193.5" />
+      <point x="2499.347501792146" y="2689.0" />
+      <point x="2261.594244968325" y="2689.0" />
+      <point x="2261.594244968325" y="1027.0" />
+      <point x="1840.0060498641135" y="1027.0" />
+      <point x="86.39999999999992" y="83.0" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Tiles.MosaicTile">
+      <point x="-81.01923076923049" y="-193.5" />
+      <point x="2410.9628864075307" y="2749.0" />
+      <point x="1948.881197794517" y="2749.0" />
+      <point x="1948.881197794517" y="1695.0" />
+      <point x="1883.780406561731" y="1695.0" />
+      <point x="24.625" y="72.0" />
+    </edge>
+    <edge source="View.Main_menu" target="View.Main_menu.panel">
+      <point x="0.0" y="61.0" />
+      <point x="3648.3625405122693" y="1715.0" />
+      <point x="3629.0292071789354" y="1715.0" />
+      <point x="3629.0292071789354" y="2147.0" />
+      <point x="3652.2040529363107" y="2147.0" />
+      <point x="-47.19999999999982" y="-226.0" />
+    </edge>
+    <edge source="View.GUI" target="Model.Round.Round">
+      <point x="80.30263157894728" y="-600.5" />
+      <point x="1188.1074028630615" y="3386.0" />
+      <point x="1260.909380305602" y="3386.0" />
+      <point x="1260.909380305602" y="2147.0" />
+      <point x="2380.87100606565" y="2147.0" />
+      <point x="-18.111111111111313" y="116.0" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Tiles.AmphoraTile">
+      <point x="-22.09615384615381" y="-193.5" />
+      <point x="2469.8859633306074" y="2709.0" />
+      <point x="2185.9423593879237" y="2709.0" />
+      <point x="2185.9423593879237" y="1715.0" />
+      <point x="2210.469244968325" y="1715.0" />
+      <point x="88.875" y="83.0" />
+    </edge>
+    <edge source="Model.Cards.Archaelogist" target="Model.Board.Board">
+      <point x="31.125" y="-127.5" />
+      <point x="655.4085257297395" y="2067.0" />
+      <point x="1374.9298593879234" y="2067.0" />
+      <point x="-75.94999999999999" y="105.0" />
+    </edge>
+    <edge source="View.GUI" target="View.GUI.Menu_Actions">
+      <point x="-61.40789473684208" y="-600.5" />
+      <point x="1046.3968765472723" y="3366.0" />
+      <point x="730.2251697792867" y="3366.0" />
+      <point x="-88.5" y="27.0" />
+    </edge>
+    <edge source="View.GUI" target="Model.Tiles.Tile">
+      <point x="-174.77631578947398" y="-600.5" />
+      <point x="933.0284554946403" y="3486.0" />
+      <point x="0.0" y="3486.0" />
+      <point x="0.0" y="631.0" />
+      <point x="1272.9750974831613" y="631.0" />
+      <point x="-70.57142857142867" y="38.0" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Tiles.LandSlideTile">
+      <point x="-154.67307692307668" y="-193.5" />
+      <point x="2337.3090402536845" y="2799.0" />
+      <point x="1294.7965260545902" y="2799.0" />
+      <point x="1294.7965260545902" y="1655.0" />
+      <point x="1285.322073228398" y="1655.0" />
+      <point x="-19.0" y="38.0" />
+    </edge>
+    <edge source="View.GUI" target="Model.Tiles.StatueTile">
+      <point x="-127.53947368421063" y="-600.5" />
+      <point x="980.2652975999036" y="3436.0" />
+      <point x="345.4473684210525" y="3436.0" />
+      <point x="345.4473684210525" y="2027.0" />
+      <point x="691.0490469126089" y="2027.0" />
+      <point x="691.0490469126089" y="1333.0" />
+      <point x="1447.9887398950646" y="1333.0" />
+      <point x="-71.33333333333331" y="83.0" />
+    </edge>
+    <edge source="Model.Player.Player" target="Model.Cards.Character">
+      <point x="97.7096774193551" y="215.5" />
+      <point x="2384.8556658395364" y="471.0" />
+      <point x="3436.1540529363106" y="471.0" />
+      <point x="3436.1540529363106" y="4807.0" />
+      <point x="3180.176970117938" y="4807.0" />
+      <point x="87.88235294117658" y="-138.5" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Player.Player">
+      <point x="81.01923076923094" y="-193.5" />
+      <point x="2573.001347945992" y="2639.0" />
+      <point x="2490.982117176761" y="2639.0" />
+      <point x="2490.982117176761" y="581.0" />
+      <point x="2317.2105045492135" y="581.0" />
+      <point x="30.0645161290322" y="215.5" />
+    </edge>
+    <edge source="Model.Cards.Assistant" target="Model.Tiles.Tile">
+      <point x="31.125" y="-116.5" />
+      <point x="2657.107117176761" y="2147.0" />
+      <point x="2658.293278770168" y="2147.0" />
+      <point x="2658.293278770168" y="571.0" />
+      <point x="1403.260811768876" y="571.0" />
+      <point x="59.71428571428578" y="38.0" />
+    </edge>
+    <edge source="Model.Tiles.MosaicTile" target="Model.Tiles.FindingTiles">
+      <point x="-65.66666666666652" y="-72.0" />
+      <point x="1793.4887398950646" y="1373.0" />
+      <point x="1820.1798593879234" y="1373.0" />
+      <point x="1820.1798593879234" y="1117.0" />
+      <point x="1763.2060498641135" y="1117.0" />
+      <point x="9.599999999999966" y="83.0" />
+    </edge>
+    <edge source="Model.Board.Board" target="Model.Tiles.LandSlideTile">
+      <point x="-93.0" y="-105.0" />
+      <point x="1357.8798593879233" y="1655.0" />
+      <point x="1323.322073228398" y="1655.0" />
+      <point x="19.0" y="38.0" />
+    </edge>
+    <edge source="Model.Cards.Character" target="Model.Player.Player">
+      <point x="102.52941176470586" y="-138.5" />
+      <point x="3194.824028941467" y="4817.0" />
+      <point x="3886.23467661963" y="4817.0" />
+      <point x="3886.23467661963" y="461.0" />
+      <point x="2392.371794871795" y="461.0" />
+      <point x="105.22580645161315" y="215.5" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Tiles.CaryatidTile">
+      <point x="-51.55769230769238" y="-193.5" />
+      <point x="2440.424424869069" y="2729.0" />
+      <point x="1992.5942449683248" y="2729.0" />
+      <point x="1992.5942449683248" y="1067.0" />
+      <point x="1573.1077875141123" y="1067.0" />
+      <point x="38.5" y="38.0" />
+    </edge>
+    <edge source="Controller.Controller" target="Model.Round.Round">
+      <point x="-57.1875" y="-149.5" />
+      <point x="3166.4905650846736" y="2037.0" />
+      <point x="2453.3154505100947" y="2037.0" />
+      <point x="54.333333333333485" y="116.0" />
+    </edge>
+    <edge source="Controller.Controller" target="Model.Player.Player">
+      <point x="95.3125" y="-149.5" />
+      <point x="3318.9905650846736" y="2137.0" />
+      <point x="3274.022326826775" y="2137.0" />
+      <point x="3274.022326826775" y="511.0" />
+      <point x="2354.791149710504" y="511.0" />
+      <point x="67.64516129032245" y="215.5" />
+    </edge>
+    <edge source="View.GUI.take_tiles" target="View.GUI">
+      <point x="0.0" y="49.0" />
+      <point x="503.8421052631579" y="3396.0" />
+      <point x="1018.0547712841143" y="3396.0" />
+      <point x="-89.75" y="-600.5" />
+    </edge>
+    <edge source="Model.Cards.Digger" target="Model.Tiles.Tile">
+      <point x="-93.375" y="-127.5" />
+      <point x="117.07236842105249" y="2147.0" />
+      <point x="64.44736842105249" y="2147.0" />
+      <point x="64.44736842105249" y="651.0" />
+      <point x="1294.6893831974471" y="651.0" />
+      <point x="-48.85714285714289" y="38.0" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Tiles.SkeletonTile">
+      <point x="-110.48076923076906" y="-193.5" />
+      <point x="2381.501347945992" y="2769.0" />
+      <point x="1725.790192876237" y="2769.0" />
+      <point x="1725.790192876237" y="1675.0" />
+      <point x="1642.405406561731" y="1675.0" />
+      <point x="32.75" y="116.0" />
+    </edge>
+    <edge source="View.Main_menu.panel" target="View.Main_menu.panel.menu_listener">
+      <point x="0.0" y="-226.0" />
+      <point x="3699.4040529363106" y="2147.0" />
+      <point x="3679.068009952963" y="2147.0" />
+      <point x="-78.66666666666697" y="27.0" />
+    </edge>
+    <edge source="Model.Tiles.StatueTile" target="Model.Tiles.FindingTiles">
+      <point x="91.71428571428572" y="-83.0" />
+      <point x="1611.0363589426836" y="1087.0" />
+      <point x="1686.4060498641136" y="1087.0" />
+      <point x="-67.19999999999999" y="83.0" />
+    </edge>
+    <edge source="Model.Tiles.AmphoraTile" target="Model.Player.Player">
+      <point x="79.0" y="-83.0" />
+      <point x="2200.594244968325" y="1363.0" />
+      <point x="2119.9339114800114" y="1363.0" />
+      <point x="2119.9339114800114" y="1117.0" />
+      <point x="2288.465988144503" y="1117.0" />
+      <point x="2288.465988144503" y="641.0" />
+      <point x="2272.113730355665" y="641.0" />
+      <point x="-15.0322580645161" y="215.5" />
+    </edge>
+    <edge source="View.GUI" target="Model.Cards.Character">
+      <point x="0.0" y="600.5" />
+      <point x="1107.8047712841144" y="4777.0" />
+      <point x="3048.353440706173" y="4777.0" />
+      <point x="-43.94117647058829" y="-138.5" />
+    </edge>
+    <edge source="View.GUI" target="Model.Board.Board">
+      <point x="51.96052631578959" y="-600.5" />
+      <point x="1159.765297599904" y="3356.0" />
+      <point x="1232.5672750424446" y="3356.0" />
+      <point x="1232.5672750424446" y="2097.0" />
+      <point x="1440.0298593879234" y="2097.0" />
+      <point x="-10.850000000000023" y="105.0" />
+    </edge>
+    <edge source="View.GUI" target="Model.Tiles.FindingTiles">
+      <point x="-118.09210526315792" y="-600.5" />
+      <point x="989.7126660209564" y="3426.0" />
+      <point x="354.8947368421052" y="3426.0" />
+      <point x="354.8947368421052" y="2037.0" />
+      <point x="743.9034554946404" y="2037.0" />
+      <point x="743.9034554946404" y="1363.0" />
+      <point x="1636.822073228398" y="1363.0" />
+      <point x="1636.822073228398" y="1097.0" />
+      <point x="1705.6060498641136" y="1097.0" />
+      <point x="-48.0" y="83.0" />
+    </edge>
+    <edge source="Model.Cards.Archaelogist" target="Model.Round.Round">
+      <point x="93.375" y="-127.5" />
+      <point x="717.6585257297395" y="2127.0" />
+      <point x="2344.6487838434277" y="2127.0" />
+      <point x="-54.333333333333485" y="116.0" />
+    </edge>
+    <edge source="View.GUI" target="View.GUI.use_character">
+      <point x="155.88157894736833" y="-600.5" />
+      <point x="1263.6863502314827" y="3466.0" />
+      <point x="2854.480778770168" y="3466.0" />
+      <point x="-88.5" y="27.0" />
+    </edge>
+    <edge source="Controller.Game_Controller" target="Model.Round.Round">
+      <point x="66.28846153846143" y="-193.5" />
+      <point x="2558.2705787152227" y="2649.0" />
+      <point x="2398.982117176761" y="2649.0" />
+      <point x="0.0" y="116.0" />
+    </edge>
+    <edge source="Model.Tiles.StatueTile" target="Model.Tiles.CaryatidTile">
+      <point x="-61.14285714285714" y="-83.0" />
+      <point x="1458.1792160855407" y="1117.0" />
+      <point x="1470.4411208474457" y="1117.0" />
+      <point x="-64.16666666666669" y="38.0" />
+    </edge>
+    <edge source="Controller.Controller" target="Controller.Game_Controller">
+      <point x="-43.57142857142844" y="149.5" />
+      <point x="3180.106636513245" y="2819.0" />
+      <point x="2646.6551940998384" y="2819.0" />
+      <point x="154.67307692307713" y="-193.5" />
+    </edge>
+    <edge source="View.Main_menu.panel.start_menu" target="Controller.Controller">
+      <point x="-126.375" y="-138.0" />
+      <point x="3488.7790529363106" y="2839.0" />
+      <point x="3310.820922227531" y="2839.0" />
+      <point x="87.14285714285734" y="149.5" />
+    </edge>
+    <edge source="Model.Cards.Archaelogist" target="View.GUI">
+      <point x="31.125" y="127.5" />
+      <point x="655.4085257297395" y="2849.0" />
+      <point x="690.2251697792867" y="2849.0" />
+      <point x="690.2251697792867" y="3376.0" />
+      <point x="1036.9495081262194" y="3376.0" />
+      <point x="-70.8552631578948" y="-600.5" />
+    </edge>
+    <edge source="Model.Cards.Assistant" target="Model.Cards.Character">
+      <point x="31.125" y="116.5" />
+      <point x="2657.107117176761" y="2769.0" />
+      <point x="3071.480778770168" y="2769.0" />
+      <point x="3071.480778770168" y="4737.0" />
+      <point x="3106.9416760002905" y="4737.0" />
+      <point x="14.647058823529278" y="-138.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3275198661647846" x="2207.8023240965395" y="2457.483973949687" />
+  <SelectedNodes>
+    <node>View.GUI</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

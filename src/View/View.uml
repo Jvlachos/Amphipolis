@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>View</OriginalElement>
+  <nodes>
+    <node x="1150.0" y="77.0">View.Main_menu</node>
+    <node x="793.0" y="0.0">View.Main_menu.panel.start_menu</node>
+    <node x="512.0" y="22.0">View.GUI.Player_Actions</node>
+    <node x="0.0" y="0.0">View.GUI.take_tiles</node>
+    <node x="256.0" y="22.0">View.GUI.Menu_Actions</node>
+    <node x="957.25" y="326.0">View.Main_menu.panel</node>
+    <node x="996.5833333333334" y="828.0">View.Main_menu.panel.menu_listener</node>
+    <node x="224.0" y="168.0">View.GUI</node>
+    <node x="285.5" y="1419.0">View.GUI.use_character</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="View.Main_menu.panel" target="View.Main_menu">
+      <point x="29.5" y="-226.0" />
+      <point x="1104.75" y="296.0" />
+      <point x="1174.8333333333333" y="296.0" />
+      <point x="-49.66666666666674" y="61.0" />
+    </edge>
+    <edge source="View.Main_menu.panel.start_menu" target="View.Main_menu.panel">
+      <point x="84.25" y="138.0" />
+      <point x="-29.5" y="-226.0" />
+    </edge>
+    <edge source="View.GUI.Menu_Actions" target="View.GUI">
+      <point x="29.5" y="27.0" />
+      <point x="0.0" y="-600.5" />
+    </edge>
+    <edge source="View.GUI.use_character" target="View.GUI">
+      <point x="-78.66666666666674" y="-27.0" />
+      <point x="324.83333333333326" y="1394.0" />
+      <point x="283.8333333333333" y="1394.0" />
+      <point x="-119.66666666666669" y="600.5" />
+    </edge>
+    <edge source="View.GUI.take_tiles" target="View.GUI">
+      <point x="0.0" y="49.0" />
+      <point x="118.0" y="138.0" />
+      <point x="272.9545454545455" y="138.0" />
+      <point x="-130.5454545454545" y="-600.5" />
+    </edge>
+    <edge source="View.GUI.Player_Actions" target="View.GUI">
+      <point x="29.5" y="27.0" />
+      <point x="659.5" y="138.0" />
+      <point x="534.0454545454545" y="138.0" />
+      <point x="130.5454545454545" y="-600.5" />
+    </edge>
+    <edge source="View.Main_menu.panel.menu_listener" target="View.Main_menu.panel">
+      <point x="-88.5" y="-27.0" />
+      <point x="1026.0833333333333" y="803.0" />
+      <point x="996.5833333333333" y="803.0" />
+      <point x="-78.66666666666674" y="226.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.3643670462156731" x="649.5" y="736.5" />
+  <SelectedNodes>
+    <node>View.Main_menu</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
